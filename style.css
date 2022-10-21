@@ -1,0 +1,64 @@
+table{
+    width: 650px;
+    text-align: center;
+}
+
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th,td,.caption,.cap{
+    padding:20px;
+}
+
+tr:nth-child(even){
+    background-color:rgb(214, 214, 126);
+}
+
+tr:nth-child(odd){
+    background-color: rgb(193, 237, 62);
+}
+
+body{
+    background-color:aliceblue;
+}
+
+img{
+    display:block;
+    margin: 0 auto;
+}
+
+#title{
+    text-align: center;
+    font-size: 80px;
+}
+
+#img-caption{
+    text-align: center;
+    font-size: 25px;
+}
+
+.intro{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    background-color: antiquewhite;
+    padding: 50px;
+}
+iframe {
+    display:block;
+    margin:1em auto;
+    width:80%;
+    height: calc(0.5625*80vw);
+    min-width: 450px;
+    min-height: 225px;
+    max-width: 1032px;
+    max-height: 590px;
+
+}
+
+.records{
+    min-width: 450px;
+    max-width: 1032px;
+}
